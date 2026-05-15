@@ -8,7 +8,7 @@ A robust **Model Context Protocol (MCP)** server that bridges the gap between La
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 This project demonstrates an **agentic tool-calling architecture** where an LLM interacts with a local SQLite database through structured MCP tools.
 
@@ -24,7 +24,7 @@ The system effectively transforms a local database into an AI-accessible knowled
 
 ---
 
-# 🎯 Real-World Use Case: MLOps Registry
+#  Real-World Use Case: MLOps Registry
 
 To demonstrate practical utility, this repository includes a mock **MLOps Model Registry** database.
 
@@ -44,7 +44,7 @@ The AI agent can answer questions regarding:
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 The server is built using the **FastMCP Python SDK** and exposes three specialized tools to the LLM client.
 
@@ -111,7 +111,7 @@ LIMIT 1;
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -124,7 +124,7 @@ LIMIT 1;
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 nl-to-sql-mcp/
@@ -138,7 +138,7 @@ nl-to-sql-mcp/
 
 ---
 
-# 🚀 Installation & Setup
+#  Installation & Setup
 
 ## 1. Clone the Repository
 
@@ -175,7 +175,7 @@ pip install -r requirements.txt
 
 ---
 
-# 💻 Usage
+#  Usage
 
 ## Option A: Testing with MCP Inspector
 
@@ -206,7 +206,7 @@ Add the MCP server configuration to your Claude Desktop config file.
 
 ---
 
-# 🤖 Example Agentic Workflow
+#  Example Agentic Workflow
 
 ## User Prompt
 
@@ -261,7 +261,7 @@ The highest mAP score achieved on NVIDIA Jetson was 92.4% by YOLOv8, trained on 
 
 ---
 
-# 🔒 Security Design
+#  Security Design
 
 This MCP server is intentionally designed as a **read-only interface**.
 
@@ -288,7 +288,7 @@ Example:
 
 ---
 
-# 📦 Future Improvements
+#  Future Improvements
 
 - PostgreSQL support
 - MySQL support
@@ -301,7 +301,7 @@ Example:
 
 ---
 
-# 🧠 Key Concepts Demonstrated
+#  Key Concepts Demonstrated
 
 - Agentic AI systems
 - MCP server architecture
@@ -313,7 +313,7 @@ Example:
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome.
 
@@ -327,13 +327,13 @@ Contributions are welcome.
 
 ---
 
-# 📜 License
+#  License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **J. Srinithi**  
 AI/ML Engineer • MLOps • Agentic AI • Computer Vision
